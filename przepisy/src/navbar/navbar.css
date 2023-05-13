@@ -1,0 +1,43 @@
+.navbar
+{
+    background-color:rgba(222, 229, 230);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Navbar--lewaStrona{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-size: 20px;
+    align-self: flex-start;
+}
+.logo{
+    margin-right: 10px;
+    height: 35px;
+    /* background-color: rgb(233, 197, 197); */
+    /* padding: 16px; */
+    /* border-radius: 20px; */
+}
+
+.zakladka
+{
+    padding: 8px;
+    background-color:rgba(222, 229, 230);
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight:400;
+}
+.zakladka:hover
+{
+    background-color: rgba(212, 219, 220, 0.626);
+}
+
+/* .zakladka:last-child{
+    margin-right:auto;
+} */

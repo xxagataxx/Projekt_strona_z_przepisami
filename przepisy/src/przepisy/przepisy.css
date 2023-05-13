@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    
+}
+.kwadrat_przepis
+{
+    margin: 16px;
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+}
+
+.kwadrat_przepis_zdjecie
+{
+    
+}
