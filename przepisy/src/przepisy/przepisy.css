@@ -1,16 +1,50 @@
-main{
+.main{
+    justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: row;
+}
+.przepisy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:16px;
     
 }
 .kwadrat_przepis
 {
-    margin: 16px;
-    background-color: aquamarine;
-    width: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
     height: 400px;
+    transition: all 0.5s;
+
+}
+.kwadrat_przepis:hover{
+    -webkit-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 100px -50px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transform: scale(1.05);
+   
 }
 
 .kwadrat_przepis_zdjecie
 {
     
+    width: 400px;
+    height: 250px;
+    
+}
+
+.kwadrat_przepis_tekst
+{
+    
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:55px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
 }

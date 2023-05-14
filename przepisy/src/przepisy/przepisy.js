@@ -1,28 +1,53 @@
 import './przepisy.css'
-import nalesnik from './nalesnik.jpg'
+import './kategorie.css'
+import Przepis from './przepis';
+import danePrzepisy from './przepisy.json'
+import Kategoria from './kategoria';
+import React from 'react';
 
-function przepisy() {
+function Przepisy() {
+
+    const [aktualnaKategoria,setAktualnaKategoria] = React.useState("");
+
+    //do losowego rozmieszczenia przepisów na stronie
+    function shuffle(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+        }
+        return array;
+    }
+    
+    const wszystkiePrzepisy = shuffle(danePrzepisy).filter(pojedycznyPrzepis=>{
+        if(aktualnaKategoria===""){
+            return true;
+        }
+        if(pojedycznyPrzepis.kategoria === aktualnaKategoria){
+            return true;
+        }
+    }).map(pojedycznyPrzepis=>{
+        return (
+            <Przepis nazwa={pojedycznyPrzepis.nazwa} zdjecie={pojedycznyPrzepis.zdjecie} kategoria={pojedycznyPrzepis.kategoria} />
+        )
+
+    }
+    );
+
+    console.log(aktualnaKategoria);
+
   return (
     <main>
-        <div className='kwadrat_przepis'>
-            <div className='kwadrat_przepis_zdjecie'>
-            </div>
-            <div className='kwadrat_przepis_tekst'>
-                tekst
-            </div>
+        <div className="kategorie">
+            <Kategoria nazwa="słone" zmienKategorie={setAktualnaKategoria} czyWybrana={aktualnaKategoria==="słone"}/>
+            <Kategoria nazwa="słodkie" zmienKategorie={setAktualnaKategoria} czyWybrana={aktualnaKategoria==="słodkie"}/>
         </div>
-        <div className='kwadrat_przepis'>
-            {/* <div className='kwadrat_przepis_zdjecie'>
-            </div> */}
-            <div>
-                <img src={nalesnik} style={{width:'400px'}}/>
-            </div>
-            <div className='kwadrat_przepis_tekst'>
-                tekst
-            </div>
+        <div className="przepisy">
+            {wszystkiePrzepisy}
         </div>
     </main>
   );
 }
 
-export default przepisy;
+export default Przepisy;

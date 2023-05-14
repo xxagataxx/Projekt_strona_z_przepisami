@@ -1,11 +1,11 @@
 import './coOferujemy.css'
 import nalesnik from './nalesnik.jpg'
 
-function coOferujemy() {
+function CoOferujemy() {
   return (
     <main>
     </main>
   );
 }
 
-export default coOferujemy;
+export default CoOferujemy;

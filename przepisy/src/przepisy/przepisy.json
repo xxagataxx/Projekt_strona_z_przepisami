@@ -1,0 +1,131 @@
+[
+    {
+        "nazwa":"Brownie",
+        "zdjecie":{
+             "nazwaPliku":"brownie.jpg",
+             "title":"Photo by Aneta Voborilova on Unsplash"
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słodkie"
+     },
+
+    {
+       "nazwa":"Naleśniki",
+       "zdjecie":{
+            "nazwaPliku":"nalesnik.jpg",
+            "title":"Photo by Fa Barboza on Unsplash"
+       },
+       "opis":"Jak zrobic przepis...",
+       "kategoria":"słodkie"
+    },
+    {
+        "nazwa":"Szarlotka",
+        "zdjecie":{
+             "nazwaPliku":"szarlotka.jpg",
+             "title":"Photo by Patrick Fore on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słodkie"
+     },
+
+     {
+        "nazwa":"Sernik",
+        "zdjecie":{
+             "nazwaPliku":"sernik.jpg",
+             "title":"Photo by Tina Guina on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słodkie"
+     },
+
+     {
+        "nazwa":"Gofry",
+        "zdjecie":{
+             "nazwaPliku":"gofry.jpg",
+             "title":"Photo by Bettina Kunz on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słodkie"
+     },
+
+     {
+        "nazwa":"Tortilla",
+        "zdjecie":{
+             "nazwaPliku":"tortilla.jpg",
+             "title":"Photo by Ryan Concepcion on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     },
+
+     {
+        "nazwa":"Spaghetti",
+        "zdjecie":{
+             "nazwaPliku":"spaghetti.jpg",
+             "title":"Photo by Homescreenify on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     },
+
+     {
+        "nazwa":"Pizza",
+        "zdjecie":{
+             "nazwaPliku":"pizza.jpg",
+             "title":"Photo by Ivan Torres on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     },
+
+     {
+        "nazwa":"Omlet",
+        "zdjecie":{
+             "nazwaPliku":"omlet.jpg",
+             "title":"Photo by Bakd&Raw by Karolin Baitinger onUnsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     },
+
+     {
+        "nazwa":"Lasagne",
+        "zdjecie":{
+             "nazwaPliku":"lasagne.jpg",
+             "title":"Photo by Karolina Kołodziejczak on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     },
+
+     {
+        "nazwa":"Nuggets",
+        "zdjecie":{
+             "nazwaPliku":"nuggets.jpg",
+             "title":"Photo by Léo Roza on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     },
+
+     {
+        "nazwa":"Pierogi",
+        "zdjecie":{
+             "nazwaPliku":"pierogi.jpg",
+             "title":"Photo by Eugen Kucheruk on Unsplash"
+             
+        },
+        "opis":"Jak zrobic przepis...",
+        "kategoria":"słone"
+     }
+
+]

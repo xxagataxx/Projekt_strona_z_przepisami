@@ -5,23 +5,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-bottom: 16px;
+    border-bottom: 1px solid black;
 }
 
 .Navbar--lewaStrona{
-    margin-right: auto;
+    /* margin-right: auto; */
     display: flex;
     align-items: center;
     padding: 8px;
     font-size: 20px;
     align-self: flex-start;
+    font-family: 'Lato', sans-serif;
 }
 .logo{
     margin-right: 10px;
     height: 35px;
-    /* background-color: rgb(233, 197, 197); */
-    /* padding: 16px; */
-    /* border-radius: 20px; */
 }
 
 .zakladka
@@ -31,13 +30,13 @@
     border-radius: 20px;
     margin-left: 10px;
     font-size: 20px;
-    font-weight:400;
+    font-weight:300;
+    font-family: 'Lato', sans-serif;
+    
 }
 .zakladka:hover
 {
-    background-color: rgba(212, 219, 220, 0.626);
+    cursor: pointer;
+    border-radius: 0px;
+    box-shadow: 0 1px 0 #000;
 }
-
-/* .zakladka:last-child{
-    margin-right:auto;
-} */
