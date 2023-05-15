@@ -27,6 +27,7 @@ function Przepisy() {
         if(pojedycznyPrzepis.kategoria === aktualnaKategoria){
             return true;
         }
+        return false;
     }).map(pojedycznyPrzepis=>{
         return (
             <Przepis nazwa={pojedycznyPrzepis.nazwa} zdjecie={pojedycznyPrzepis.zdjecie} kategoria={pojedycznyPrzepis.kategoria} />
@@ -35,18 +36,17 @@ function Przepisy() {
     }
     );
 
-    console.log(aktualnaKategoria);
 
   return (
-    <main>
-        <div className="kategorie">
-            <Kategoria nazwa="słone" zmienKategorie={setAktualnaKategoria} czyWybrana={aktualnaKategoria==="słone"}/>
-            <Kategoria nazwa="słodkie" zmienKategorie={setAktualnaKategoria} czyWybrana={aktualnaKategoria==="słodkie"}/>
-        </div>
-        <div className="przepisy">
-            {wszystkiePrzepisy}
-        </div>
-    </main>
+        <main className='main-przepisy'>
+            <div className="kategorie">
+                <Kategoria nazwa="słone" zmienKategorie={setAktualnaKategoria} czyWybrana={aktualnaKategoria==="słone"}/>
+                <Kategoria nazwa="słodkie" zmienKategorie={setAktualnaKategoria} czyWybrana={aktualnaKategoria==="słodkie"}/>
+            </div>
+            <div className="przepisy">
+                {wszystkiePrzepisy}
+            </div>
+        </main>
   );
 }
 

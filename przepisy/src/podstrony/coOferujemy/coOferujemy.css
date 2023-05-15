@@ -1,0 +1,26 @@
+.main-coOferujemy{
+    display: flex;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./jedzenie.jpg);
+}
+
+.content{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(255,255,255,0.93);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    padding: 40px;
+    font-size: 25px;
+    text-align: justify;
+}

@@ -1,16 +1,19 @@
-import Footer from "./footer/footer";
-import Navbar from "./navbar/navbar";
-import Przepisy from "./przepisy/przepisy";
+import Przepisy from "./podstrony/przepisy/przepisy";
+import Layout from "./Layout";
+import CoOferujemy from "./podstrony/coOferujemy/coOoferujemy";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Przepisy/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<CoOferujemy />} />
+          <Route path="przepisy" element={<Przepisy />} />
+          {/* <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
