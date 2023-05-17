@@ -30,7 +30,7 @@ function Przepisy() {
         return false;
     }).map(pojedycznyPrzepis=>{
         return (
-            <Przepis nazwa={pojedycznyPrzepis.nazwa} zdjecie={pojedycznyPrzepis.zdjecie} kategoria={pojedycznyPrzepis.kategoria} />
+            <Przepis key={pojedycznyPrzepis.id} przepis={pojedycznyPrzepis} />
         )
 
     }

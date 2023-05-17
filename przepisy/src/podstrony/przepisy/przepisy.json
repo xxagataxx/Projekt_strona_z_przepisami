@@ -1,130 +1,256 @@
 [
     {
+          "id":1,
         "nazwa":"Brownie",
         "zdjecie":{
              "nazwaPliku":"brownie.jpg",
              "title":"Photo by Aneta Voborilova on Unsplash"
         },
-        "opis":"Jak zrobic przepis...",
+        "opis":"Piekarnik nagrzać do 160 stopni C. Przygotować małą prostokątną foremkę o wymiarach ok. 21 cm x 28 cm (lub o podobnej powierzchni). Posmarować ją masłem i wyłożyć papierem do pieczenia. Masło pokroić w kostkę i włożyć do rondelka, dodać połamaną na kosteczki czekoladę i cały czas mieszając roztopić na małym ogniu, odstawić z palnika. W oddzielnej misce rozmiksować lub wymieszać rózgą jajka z cukrem. Dodać do nich roztopioną czekoladę z masłem zmiksować lub wymieszać rózgą na gładką masę. Dodać mąkę oraz sól i zmiksować na jednolite ciasto. Wyłożyć do przygotowanej blaszki, wyrównać powierzchnię. Dodatkową czekoladę pokroić na kawałki i posypać po wierzchu ciasta. Wstawić do piekarnika i piec przez ok. 30 minut aż ciasto lekko urośnie. Jeśli używamy większej blaszki, ciasto będzie gotowe szybciej, jeśli mniejszej - czas pieczenia należy wydłużyć. Po upieczeniu i ostudzeniu pokroić na małe kawałeczki.",
+        "skladniki":[
+          "200 g masła",
+          "200 g gorzkiej czekolady",
+          "3 jajka (temp. pokojowa)",
+          "250 g cukru",
+          "135 g mąki",
+          "mała szczypta soli",
+          "dodatkowo: ok. 50 - 100 g gorzkiej czekolady na wierzch"
+        ],
         "kategoria":"słodkie"
      },
 
     {
+     "id":2,
        "nazwa":"Naleśniki",
        "zdjecie":{
             "nazwaPliku":"nalesnik.jpg",
             "title":"Photo by Fa Barboza on Unsplash"
        },
-       "opis":"Jak zrobic przepis...",
+       "opis":"Mąkę wsypać do miski, dodać jajka, mleko, wodę i sól. Zmiksować na gładkie ciasto. Dodać roztopione masło lub olej roślinny i razem zmiksować (lub wykorzystać tłuszcz do smarowania patelni przed smażeniem każdego naleśnika). Naleśniki smażyć na dobrze rozgrzanej patelni z cienkim dnem np. naleśnikowej. Przewrócić na drugą stronę gdy spód naleśnika będzie już ładnie zrumieniony i ścięty.",
+       "skladniki":[
+          "1 szklanka mąki pszennej",
+          "2 jajka",
+          "1 szklanka mleka",
+          "3/4 szklanki wody (najlepiej gazowanej)",
+          "szczypta soli",
+          "3 łyżki masła lub oleju roślinnego"
+        ],
        "kategoria":"słodkie"
     },
     {
+     "id":3,
         "nazwa":"Szarlotka",
         "zdjecie":{
              "nazwaPliku":"szarlotka.jpg",
              "title":"Photo by Patrick Fore on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "opis":"Jabłka obrać, pokroić na ćwiartki i wyciąć gniazda nasienne. Pokroić na mniejsze kawałki i włożyć do szerokiego garnka lub na głęboką patelnię. Dodać cukier i cynamon i smażyć przez ok. 20 minut co chwilę mieszając, aż jabłka zmiękną i zaczną się rozpadać. Do mąki dodać pokrojone w kostkę zimne masło, proszek do pieczenia, cukier i cukier wanilinowy. Składniki połączyć w jednolite ciasto (mikserem lub ręcznie), pod koniec dodać jajko (ciasto będzie dość miękkie). Podzielić je na pół i włożyć obie połówki do zamrażarki na ok. 15 minut. Piekarnik nagrzać do 180 st C. Przygotować niedużą formę*. Wyjąć jedną połówkę ciasta z zamrażarki, pokroić nożem na plasterki i wylepić nimi spód formy. Następnie wyłożyć na to jabłka. Pozostałe ciasto zetrzeć na tarce bezpośrednio na jabłka (lub pokroić ciasto na plasterki i ułożyć na wierzchu). Wstawić do piekarnika i piec przez ok. 50 minut lub na złoty kolor. Upieczoną szarlotkę przestudzić i posypać cukrem pudrem.",
+        "skladniki":[
+          "1,5 kg jabłek",
+          "5 łyżek cukru",
+          "1/2 łyżeczki cynamonu",
+          "320 g mąki (2 szklanki)",
+          "250 g zimnego masła (50 g masła można zastąpić smalcem)",
+          "1,5 łyżeczki proszku do pieczenia",
+          "5 łyżek cukru",
+          "1 łyżka cukru wanilinowego",
+          "1 jajko",
+          "Do posypania: cukier puder"
+        ],
         "kategoria":"słodkie"
      },
 
      {
+          "id":4,
         "nazwa":"Sernik",
         "zdjecie":{
              "nazwaPliku":"sernik.jpg",
              "title":"Photo by Tina Guina on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki":[
+          "100 g orzechów laskowych, obranych",
+          "320 g kruchych ciastek kakaowych",
+          "80 g masła",
+          "300 g orzechów laskowych, obranych",
+          "250 ml śmietanki kremówki 30%",
+          "300 g mlecznej czekolady",
+          "500 g zmielonego tłustego twarogu",
+          "500 g sera mascarpone",
+          "3 łyżki mąki ziemniaczanej",
+          "1 szklanka cukru",
+          "5 jajek",
+          "80 ml śmietanki słodkiej 18% lub 30%",
+          "100 g czekolady mlecznej z orzechami laskowymi",
+          "cukier puder"
+        ],
+        "opis":"Dno tortownicy o średnicy 26 cm z odpinaną obręczą wyłożyć papierem do pieczenia, zapiąć obręcz wypuszczając papier poza obręcz. Ciasteczka razem z orzechami zmielić w melakserze lub rozdrabniaczu na gładką pastę, następnie dodać roztopione masło i jeszcze raz zmiksować. Wyłożyć nią dno oraz boki tortownicy, mocno uklepując i dociskając. Wstawić do lodówki.Orzechy laskowe podprażyć na patelni przez kilka minut. Ostudzić i obrać ze skórek. Zmielić na pastę w melakserze lub rozdrabniaczu: najpierw przez minimum 5 minut rozdrabniać same orzechy, następnie wlać śmietankę i dalej miksować do uzyskania jak najbardziej gładkiej konsystencji. Na koniec dodać roztopioną mleczną czekoladę i jeszcze przez chwilę zmiksować. Twaróg zmiksować w malakserze na gładką masę lub zmielić trzykrotnie w maszynce do mięsa, ewentualnie rozmiksować blenderem ręcznym (żyrafą). Piekarnik nagrzać do 180 stopni C (grzanie góra i dół bez termoobiegu). Do misy miksera włożyć gładki twaróg, dodać mascarpone i zmiksować na jednolitą masę, dodać mąkę ziemniaczaną i cukier, miksować przez minutę. Dodawać po jednym jajku, miksując na małych obrotach przez około 15 sekund po każdym dodanym jajku. Dodać kolejne jajko gdy poprzednie będzie już połączone z masą. Dodać masę z orzechów i czekolady, ale najlepiej wcześniej 'zahartować' ją kilkoma łyżkami masy serowej - czyli dodawać po łyżce masę serową do masy orzechowo-czekoladowej za każdym razem mieszając łyżką. Masę serową wyłożyć do tortownicy, wyrównać powierzchnię łopatką. Wstawić do piekarnika i piec przez 15 minut. Następnie zmniejszyć temperaturę pieczenia do 120 stopni C i piec sernik przez 105 minut. Sernik wyjmować stopniowo z piekarnika i powoli go studzić. Następnie wyjąć na blat i całkowicie ostudzić.W garnuszku zagotować śmietankę, odstawić z ognia, dodać połamaną czekoladę i mieszając roztopić. Rozprowadzić po wierzchu sernika, pozostawiając 2 cm wolną obręcz, którą można oprószyć cukrem pudrem. Po ostudzeniu sernik obkroić nożem przy samej tortownicy i wstawić do lodówki na kilkanaście godzin lub na całą noc.",
         "kategoria":"słodkie"
      },
 
      {
+          "id":5,
         "nazwa":"Gofry",
         "zdjecie":{
              "nazwaPliku":"gofry.jpg",
              "title":"Photo by Bettina Kunz on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki":
+        [
+          "1 i 1/2 szklanki mąki pszennej",
+          "1 i 1/2 łyżeczki proszku do pieczenia",
+          "szczypta soli",
+          "2 łyżeczki cukru pudru lub kryształu",
+          "1 łyżka cukru wanilinowego",
+          "2 jaja",
+          "1/2 szklanki oleju roślinnego (np. słonecznikowego) lub roztopionego masła",
+          "1 i 1/3 szklanki mleka"
+        ],
+        "opis":"Mąkę wsypać do miski, dodać proszek do pieczenia, sól, cukier, cukier wanilinowy. Wszystko wymieszać a następnie dodać jajka, olej roślinny oraz mleko. Zmiksować mikserem na gładką masę, tylko do połączenia się składników. Ciasto można odstawić aby odpoczęło (na około 15 minut), ale nie jest to konieczne. Rozgrzać gofrownicę. Gofry piec przez około 3 - 3,5 minuty lub przez czas podany w instrukcji gofrownicy. Nakładamy ciasto chochlą i wypukłą stroną łyżki rozprowadzamy ciasto dokładnie po całej powierzchni. Gofry po upieczeniu odkładać na metalową kratkę. Posypać cukrem pudrem i polać syropem klonowym. Lub podawać z ulubionymi dodatkami np. marmoladą, dżemem, owocami i bitą śmietaną.",
         "kategoria":"słodkie"
      },
 
      {
+          "id":6,
         "nazwa":"Tortilla",
         "zdjecie":{
              "nazwaPliku":"tortilla.jpg",
              "title":"Photo by Ryan Concepcion on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki":
+        [
+          "4 tortille",
+          "300 g filetu kurczaka",
+          "sól, pieprz, 1 łyżeczka słodkiej papryki, szczypta ostrej, 1 łyżeczka oregano",
+          "łyżka mąki",
+          "1 jajko",
+          "panierka panko lub bułka tarta",
+          "olej roślinny do smażenia",
+          "sałata lodowa i rukola",
+          "pomidor, ogórek, papryka",
+          "ser żółty cheddar lub inny żółty ser",
+          "czerwona cebula i szczypiorek",
+          "majonez",
+          "ketchup lub sos pomidorowy lub sriracha"
+        ],
+        "opis":"Filet z kurczaka pokroić na podłużne kawałki. Doprawić solą, pieprzem, papryką słodką i ostrą oraz oregano. Delikatnie oprószyć mąką, następnie wymaczać w roztrzepanym jajku a na koniec w bułce tartej lub panko. Usmażyć na złoty kolor na patelni z olejem. Odłożyć na talerz wyłożony ręcznikiem papierowym. Tortille podgrzać, na środek nałożyć poszatkowaną sałatę, następnie położyć po 3 kawałki kurczaka, pokrojonego pomidora, ogórka i paprykę. Posypać tartym serem, dodać cebulę pokrojoną w piórka oraz rukolę. Dodać 2 - 3 łyżeczki sosu (pomieszany w równych proporcjach majonez z ketchupem lub sosem pomidorowym, ewent. z odrobiną srirachy). Posypać szczypiorkiem i zawinąć tortillę: najpierw zawinąć dół a potem do środka dwa przeciwległe boki.",
         "kategoria":"słone"
      },
 
      {
+          "id":7,
         "nazwa":"Spaghetti",
         "zdjecie":{
              "nazwaPliku":"spaghetti.jpg",
              "title":"Photo by Homescreenify on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki":[
+          "150 g boczku (gotowanego lub parzonego)",
+          "1 cebula",
+          "2 łodygi selera naciowego",
+          "1 marchewka",
+          "2 łyżki oliwy",
+          "500 g mielonego mięsa(cielęcego lub wołowo-wieprzowego)",
+          "1 szklanka czerwonego wina",
+          "1 szklanka gorącego bulionu",
+          "4 łyżki koncentratu pomidorowego",
+          "1 puszka obranych pomidorów",
+          "1/2 szklanki mleka",
+          "makaron spaghetti (75 g / porcję)",
+          "tarty parmezan"
+        ],
+        "opis":"Boczek pokroić w drobną kostkę i włożyć na dużą patelnię, wytopić na małym ogniu aż się zrumieni. Przesunąć na bok, w wytopiony tłuszcz włożyć drobno posiekaną cebulę i zeszklić. Dodać drobno posiekany seler naciowy i startą marchewkę. Obsmażyć, następnie wszystko przełożyć do garnka. Na patelnię wlać oliwę i obsmażyć mięso. Obsmażone mięso przełożyć do garnka z boczkiem i warzywami. Wlać wino i gotować mieszając ok. 5 minut. Dodać gorący bulion i koncentrat pomidorowy, wymieszać. Dodać pomidory z puszki, doprawić solą i pieprzem. Drewnianą łyżką rozdrobnić pomidory i wymieszać. Przykryć i gotować na małym ogniu przez minimum 2 godziny, od czasu do czasu mieszając. W połowie gotowania dodać mleko. Podawać z ugotowanym makaronem spaghetti posypując tartym parmezanem.",
         "kategoria":"słone"
      },
 
      {
+          "id":8,
         "nazwa":"Pizza",
         "zdjecie":{
              "nazwaPliku":"pizza.jpg",
              "title":"Photo by Ivan Torres on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki":[
+          "25 g świeżych drożdży (lub 7 g instant)", "150 ml ciepłej wody", "1/2 łyżeczki cukru", "250 g mąki pszennej","1 łyżeczka soli"
+        ],
+        "opis":"Świeże drożdże ocieplić w temperaturze pokojowej. Przygotować rozczyn: drożdże rozpuścić w ciepłej wodzie, dodać 2 łyżki mąki oraz cukier, dokładnie wymieszać i odstawić na ok. 10 minut do wyrośnięcia (rozczyn ze świeżych drożdży zwiększa objętość o ok. 3 razy - jeśli tak się nie stanie proces przygotowania rozczynu trzeba powtórzyć od nowa, natomiast rozczyn z drożdży instant może się tylko trochę spienić). Mąkę przesiać do miski, wymieszać z solą, zrobić wgłębienie w środku i wlać w nie rozczyn. Sukcesywnie zagarniać łyżką mąkę do środka i przez 2 - 3 minuty mieszać składniki, pod koniec dodając jeszcze oliwę. Połączone składniki wyłożyć na stolnicę oprószoną mąką. Wyrabiać przez ok. 15 minut aż ciasto będzie elastyczne i gładkie (ciasto można też zagnieść mikserem planetarnym). Wyrobione ciasto włożyć do dużej miski, przykryć ściereczką i odstawić na ok. 1 godzinę do wyrośnięcia. Wyrośnięte ciasto wyjąć na stolnicę i chwilę pozagniatać. Podzielić na 2 części, uformować z nich kulki i odłożyć na ok. 7 minut pod ściereczką. Blaszki (tortownice) posmarować oliwą. Włożyć na środek kulkę ciasta, delikatnie spłaszczyć i rozciągać, rozprowadzając palcami po całej powierzchni dna, zaczynając od środka i zostawiając niewielki 'wałeczek' na brzegu (zob. zdjęcia poniżej). UWAGA: najlepiej robić to kilkoma etapami, ciasto na początku sprężynuje i 'cofa się' ale jeśli odczekamy chwilę będziemy mogli je dalej rozciągać. Wyłożyć cienką warstwę SOSU POMIDOROWEGO, ser* oraz ulubione dodatki. Odczekać ok. 15 minut aż ciasto podrośnie, następnie piec w maksymalnie nagrzanym piekarniku (min. 250 st. C) przez ok. 10 minut.",
         "kategoria":"słone"
      },
 
      {
+          "id":9,
         "nazwa":"Omlet",
         "zdjecie":{
              "nazwaPliku":"omlet.jpg",
-             "title":"Photo by Bakd&Raw by Karolin Baitinger onUnsplash"
-             
-        },
-        "opis":"Jak zrobic przepis...",
+             "title":"Photo by Bakd&Raw by Karolin Baitinger onUnsplash"},
+
+          "skladniki":["2 pomidory", "sól morska i świeżo zmielony czarny pieprz", "1 łyżka octu balsamicznego",
+          "1 łyżka oliwy extra vergine", "4 jajka", "1/2 ząbka czosnku", "3 łyżki mleka", "1 kulka (125 g) mozzarelli",
+          "bazylia", "1 łyżka masła"
+          ],
+        
+        "opis":"Piekarnik nagrzać do 180 stopni i przygotować małą patelnię o średnicy około 20 cm, którą można wstawiać do piekarnika (w razie potrzeby można rączkę owinąć folią aluminiową lub przełożyć zawartość z patelni do żaroodpornego naczynka). Pomidory sparzyć, np. włożyć na kilkanaście minut do wrzątku, obrać ze skórki. Pokroić na ćwiartki i wyciąć szypułki. Ułożyć na talerzu, doprawić solą i pieprzem, skropić octem balsamicznymi i oliwą extra vergine. W oddzielnej misce roztrzepać widelcem jajka z dodatkiem soli, pieprzu, drobno startego czosnku i mleka. Dodać ser mozzarella straty na tarce o dużych oczkach lub rozdrobniony palcami oraz inny pokruszony lub straty ser jeśli go dodajemy. Wsypać połowę poszarpanych liści bazylii i wymieszać. Rozgrzać patelnię razem z masłem, zebrać pianę z powierzchni. Wlać masę jajeczną i smażyć przez około 2 minuty (masa na brzegach ma bulgotać), następnie ułożyć pomidory i wstawić do piekarnika bez przykrycia na około 15 minut lub do czasu aż masa będzie zastygnięta. Posypać resztą bazylii i płatkami chili jeśli używamy.",
         "kategoria":"słone"
      },
 
      {
+          "id":10,
         "nazwa":"Lasagne",
         "zdjecie":{
              "nazwaPliku":"lasagne.jpg",
              "title":"Photo by Karolina Kołodziejczak on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki": [
+          "9 płatów lasagne (gotowych lub DOMOWYCH)", "50 g płatków migdałów", "1 pojedynczy filet z kurczaka (jeśli chcemy można dać więcej)",
+          "1 łyżka mąki", "1 łyżka oleju roślinnego", "500 g szpinaku", "3 ząbki czosnku", "2 cebulki szalotki",
+          "1 mały por", "1 łyżka masła i 1 łyżka oliwy extra vergine", "2 łyżeczki suszonego estragonu"
+
+        ],
+        "opis":"Szpinak: Opłukać i osuszyć na ręcznikach lub ściereczce. Włożyć do garnka i mieszając podgrzewać aż szpinak zwiędnie, wyłożyć na sitko i po odsączeniu posiekać na desce na 1- 2 cm kawałki. Czosnek i szalotki obrać, pora dokładnie opłukać, przyciąć na końcach pozostawiając białą i jasnozieloną część. Czosnek, cebulkę i pora drobno posiekać lub rozdrobnić w blenderze (pojemniku rozdrabniacza). Na patelni podgrzać oliwę i masło, włożyć rozdrobnione warzywa, dodać estragon i podsmażyć wszystko co jakiś czas mieszając (przez około 5 - 7 minut). Włożyć szpinak, doprawić solą i świeżo zmielonym pieprzem, wymieszać, odstawić z ognia i przełożyć do miski. Kurczak: Filet z kurczaka opłukać, osuszyć, doprawić solą, pieprzem, wysmarować olejem, oprószyć mąką, strzepnąć nadmiar. Rozgrzać patelnię, lekko natłuścić miejsce gdzie będzie leżał filet. Filet przeciąć w najgrubszej części (aby powstały jakby 2 'palce', dzięki temu kurczak w najgrubszej części równie szybko się usmaży). Smażyć kurczaka przez 10 minut raz przewracając. Zdjąć z patelni i odczekać kilka minut przed pokrojeniem. Zagotować osoloną wodę w dużym garnku, włożyć płaty lasagne i gotować 2 minuty, wyłożyć na ręcznik kuchenny jeden płat obok drugiego. Piekarnik nagrzać do 180 stopni C. Formę żaroodporną o wymiarach około 20 x 30 cm posmarować cienko oliwą extra vergine. Dno wyłożyć 3 płatami ciasta, posmarować je 3 łyżkami sosu beszamelowego, wyłożyć połowę szpinaku, połowę pokrojonej piersi kurczaka i kolejne 3 łyżki sosu beszamelowego (w miarę możliwości rozsmarować go miejscami). Przykryć 3 płatami ciasta i powtórzyć czynności jak poprzednio. Przykryć resztą płatów lasagne i rozsmarować resztę sosu.Piec przez 20 minut, na 10 minut przed końcem posypać lasagne płatkami migdałów.",
         "kategoria":"słone"
      },
 
      {
+          "id":11,
         "nazwa":"Nuggets",
         "zdjecie":{
              "nazwaPliku":"nuggets.jpg",
              "title":"Photo by Léo Roza on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+        "skladniki":[
+          "500 g udźca z kurczaka po oczyszczeniu - nie piersi!",
+          "2 średnie jajka",
+          "2 łyżki mąki pszennej",
+          "6 łyżek bułki tartej",
+          "łyżeczka słodkiej papryki",
+          "pół łyżeczki soli",
+          "olej kokosowy lub rzepakowy do smażenia"
+        ],
+        "opis":"Przygotuj trzy miseczki. Do jednej wsyp mąkę, do drugiej wbij i wymieszaj na kogel mogel jajko z solą i papryką, do trzeciej wsyp bułkę tartą. Nagrzej sporą patelnię z grubym dnem. Wlej olej w takiej ilości, by przykrył całe dno. Kawałki kurczaka obtaczaj kolejno w mące, jajku i na koniec w bułce tartej. Smaż po 3 minuty z obu stron na złoty kolor.Po zdjęciu z patelni kładź je najpierw na ręcznik papierowy, by pozbyć się nadmiaru tłuszczu. Podawaj z warzywami, ziemniakami, kaszą, czy ryżem.Nuggetsy przewracaj na drugą stronę i zdejmuj przy pomocy szczypiec, nie nakłuwaj ich widelcem. Gotowe nuggetsy podgrzewaj w razie potrzeby w piekarniku lub na suchej patelni - nie w mikrofalówce. Na patelnię kładź razem zbliżone wielkością i grubością nuggetsy, by usmażyły się w takim samym czasie.",
         "kategoria":"słone"
      },
 
      {
+          "id":12,
         "nazwa":"Pierogi",
         "zdjecie":{
              "nazwaPliku":"pierogi.jpg",
              "title":"Photo by Eugen Kucheruk on Unsplash"
              
         },
-        "opis":"Jak zrobic przepis...",
+
+        "skladniki":[
+          "600 g mąki pszennej", "2 szczypty soli", "400 ml wrzącej wody", "60 g masła", "500 g twarogu", "500 g ziemniaków",
+"ok. 2 łyżeczki soli",  "1/2 łyżeczki zmielonego pieprzu ziołowego lub czarnego", "1 mała cebula"
+        ],
+        "opis":"Mąkę przesiać do miski, dodać sól. Do gorącej wody włożyć masło i roztopić, stopniowo wlewać do mąki, mieszając wszystko łyżką. Połączyć składniki i wyłożyć je na podsypaną mąką stolnicę. Zagniatać ciasto przez około 8 - 10 minut aż będzie gładkie i plastyczne. Ciasto włożyć do miseczki, przykryć folią, odstawić na 30 minut. W międzyczasie zacząć przygotowywać farsz. NADZIENIE Ziemniaki obrać, opłukać, włożyć do garnka, dodać sól, przykryć zimną wodą i zagotować. Gotować pod uchyloną pokrywą przez około pół godziny lub do miękkości. Odcedzić, włożyć z powrotem do garnka i jeszcze gorące roztłuc dokładnie tłuczkiem do ziemniaków na gładką masę bez grudek. Ziemniaki całkowicie ostudzić, odparować. Twaróg pokruszyć, rozgnieść widelcem lub praską (sera nie mielimy w maszynce bo nadzienie wyjdzie za rzadkie). Wymieszać z ziemniakami, doprawić solą i pieprzem. Cebulkę (jeśli dodajemy) pokroić w kostkę i zeszklić na maśle lub smalcu, dodać do nadzienia, wymieszać. LEPIENIE Ciasto pierogowe podzielić na 4 części. Kolejno rozwałkowywać na placki. Małą szklanką wycinać kółka z ciasta, na środek nakładać po jednej pełnej łyżce farszu (lub tyle ile się zmieści). Składać ciasto na pół i zlepiać dokładnie brzegi, uważając aby nadzienie nie dostało się w miejsce sklejenia. Gotowe pierogi układać na stolnicy lub blacie podsypanych mąką. GOTOWANIE W dużym garnku zagotować osoloną wodę i jak będzie mocno wrzała, włożyć pierwszą partię pierogów (około 15 sztuk). Po ponownym zagotowaniu zmniejszyć ogień do średniego i gotować pierogi do czasu wypłynięcia na powierzchnię. Po wypłynięciu pierogów gotować je jeszcze przez około 1,5 minuty (wyłowić jednego pieroga łyżką cedzakową i sprawdzić palcem czy ciasto jest już miękkie, dokładny czas gotowania będzie zależał między innymi od grubości ciasta i wielkości pierogów). Pierogi wyławiać łyżką cedzakową i układać na talerzach. Od razu podawać lub po obeschnięciu schować do pojemników i przechowywać w lodówce. Można też zamrozić. Podawać np. z zeszkloną na oleju lub smalcu cebulą lub z roztopionym smalcem ze skwarkami oraz z gęstą, kwaśną śmietaną.",
         "kategoria":"słone"
      }
 

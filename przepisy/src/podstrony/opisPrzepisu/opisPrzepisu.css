@@ -1,0 +1,81 @@
+.opisPrzepisu{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.opisPrzepisu--nazwa{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 38px;
+    
+}
+.opisPrzepisu--skladniki{
+    
+}
+
+.opisPrzepisu--skladniki__naglowek{
+    font-weight: 600;
+    font-size: 30px;
+}
+.opisPrzepisu--skladniki__ul{
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;
+}
+.opisPrzepisu--pojSkladnik::before{
+    background-image: url(./czapka.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content: "";
+    margin-right: 15px;
+}
+.opisPrzepisu--pojSkladnik{
+    list-style-type: none;
+}
+
+.opisPrzepisu--opis__naglowek{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 6px;
+}
+.opisPrzepisu--opis{
+    
+}
+
+.opisPrzepisu--opis{
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: justify;
+    width: 50%;
+    justify-content: center;
+
+}
+.opisPrzepisu--zdjecie{
+    width: 50%;
+}
+.opisPrzepisu--zdjecie__img{
+    width: 100%;
+    
+}
+.opisPrzepisu--kategoria{
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+@media (max-width: 1120px) {
+    .opisPrzepisu--opis{
+        width: 100%;
+    }
+    .opisPrzepisu--zdjecie{
+        width: 100%;
+    }
+  }
